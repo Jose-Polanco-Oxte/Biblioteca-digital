@@ -1,5 +1,3 @@
-// The purpose of this proyect is to create a personal digital library but applying agile methodologies and best practices in software development.
-
 # Biblioteca Digital
 
 Este proyecto tiene como objetivo crear una biblioteca digital personal aplicando metodologías ágiles y mejores prácticas en el desarrollo de software.
