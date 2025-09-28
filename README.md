@@ -11,10 +11,10 @@ Este proyecto tiene como objetivo crear una biblioteca digital personal aplicand
 
 ## Documentación del desarrollo
 
--   [Análisis inicial](#)
+-   [Análisis inicial](/docs/analisis.inicial.md)
 -   [Diseño de la arquitectura](#)
 -   [Planificación del proyecto](#)
--   [Historias de usuario](#)
+-   [Historias de usuario](/docs/historias-de-usuario/)
 -   [Tareas y sprints](#)
 -   [Pruebas y validación](#)
 -   [Despliegue](#)
