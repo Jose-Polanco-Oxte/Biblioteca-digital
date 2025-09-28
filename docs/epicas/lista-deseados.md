@@ -6,4 +6,4 @@ Esta épica se centra en la gestión de una lista de deseos para libros que los 
 
 | User stories  |                                                                                                 | Acceptance criteria                                                                                       |
 | :------------ | :---------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
-| Buscar libros | Como **_u suario_** Quiero encontrar un libro, entonces voy al buscador e introduzco el título. | Dado que introduzca un título, cuando no exista ningún libro con este título, entonces no aparecerá nada. |
+| Buscar libros | Como **_usuario_** Quiero encontrar un libro, entonces voy al buscador e introduzco el título. | Dado que introduzca un título, cuando no exista ningún libro con este título, entonces no aparecerá nada. |
