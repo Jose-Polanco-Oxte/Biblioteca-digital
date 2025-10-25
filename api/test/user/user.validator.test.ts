@@ -25,7 +25,6 @@ describe('user name format validation', () => {
   })
 })
 
-// This test may be removed
 describe('invalid names', () => {
   test.each(invalidNames.names)('should reject invalid name: %s', (name) => {
     const result = validator.validateName(name)
