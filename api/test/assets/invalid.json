@@ -1,6 +1,9 @@
 {
   "names": [
     "12345",
+	"gaw 2.a",
+	"+Ga",
+	"ad ",
     "",
     "   ",
     "Nombre<script>alert('XSS');</script>",

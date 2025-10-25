@@ -1,7 +1,3 @@
-export interface UserEnity {
-  name: string
-}
-
 export class User {
   private readonly _name: string
 
@@ -25,12 +21,4 @@ export class User {
     if (data === '') return new User('User')
     return new User(data)
   }
-}
-
-export interface UserRequest {
-  name: string
-}
-
-export interface UserResponse {
-  name: string
 }

@@ -3,3 +3,4 @@ src/dev.vars.ts
 node_modules/
 build/
 assets/storage
+assets/statics

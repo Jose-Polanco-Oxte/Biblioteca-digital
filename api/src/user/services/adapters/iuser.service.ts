@@ -1,7 +1,8 @@
-import { UserRequest, UserResponse } from '../../model/user.types'
+import { User } from '../../model/user.types'
+import { UserRequest } from '../../routes/user.dto'
 
-export interface IUserService {
-  getUser: () => Promise<UserResponse>
-  restoreUser: () => Promise<UserResponse>
-  saveUser: (req: UserRequest) => Promise<UserResponse>
+export interface IProfileService {
+  get: () => Promise<User>
+  restore: () => Promise<User>
+  update: (req: UserRequest) => Promise<User>
 }

@@ -36,3 +36,13 @@ export class Result<T, E> {
     return this.ok ? (this._value as T) : defaultValue
   }
 }
+
+export class HttpError extends Error {
+  status: number
+
+  constructor (errorName: string, httpStatus: number, errorMessage: string) {
+    super(errorMessage)
+    this.name = errorName
+    this.status = httpStatus
+  }
+}

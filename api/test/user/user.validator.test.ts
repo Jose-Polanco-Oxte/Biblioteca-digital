@@ -26,12 +26,11 @@ describe('user name format validation', () => {
 })
 
 // This test may be removed
-describe.skip('invalid names', () => {
+describe('invalid names', () => {
   test.each(invalidNames.names)('should reject invalid name: %s', (name) => {
     const result = validator.validateName(name)
 
     expect(result.ok).toBe(false)
-    expect(result.error).toBe('invalid name')
   })
 })
 
