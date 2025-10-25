@@ -1,0 +1,19 @@
+{
+  "names": [
+    "12345",
+    "",
+    "   ",
+    "Nombre<script>alert('XSS');</script>",
+    "Robert'); DROP TABLE Users;--",
+    "Juan!",
+    "María#",
+    "Pedro$",
+    "@Usuario",
+    "99Globos",
+    "Nombre\nConSaltoDeLinea",
+    "Nombre\tConTabulacion",
+    "Un Nombre Excesivamente Largo Que Debería Fallar La Validación De Longitud Máxima Establecida En La Base De Datos O En El Frontend",
+    "😀",
+    " Nombre Con Espacios "
+  ]
+}

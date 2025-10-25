@@ -1,0 +1,5 @@
+src/dev.vars.ts
+.vscode
+node_modules/
+build/
+assets/storage
