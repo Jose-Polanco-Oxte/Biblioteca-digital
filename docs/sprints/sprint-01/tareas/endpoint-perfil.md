@@ -57,3 +57,7 @@ Desarrollar los endpoints necesarios en el backend (Node.js/TS) para que el usua
 - [x] Un nombre válido en el endpoint `PUT /api/profile` se guarda correctamente.
 - [x] El endpoint `DELETE /api/profile` restaura el nombre de usuario por defecto correctamente.
 - [x] La validación soporta multiples idiomas.
+
+### Completado
+- Por: José Antonio P. Oxté
+- Fecha: 25/10/2025
