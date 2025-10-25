@@ -1,6 +1,6 @@
 # Historias de usuario
 
-## [Personalizar nombre de usuario](../../historias-de-usuario/sprint-01/personalizar-nombre-usuario.md)
+## [Personalizar nombre de usuario](../../historias-de-usuario/personalizar-nombre-usuario.md)
 
 Como nuevo usuario, quiero personalizar mi perfil con mi nombre, para que la aplicación se sienta como un espacio propio y personal.
 
@@ -9,7 +9,7 @@ Como nuevo usuario, quiero personalizar mi perfil con mi nombre, para que la apl
 - [ ] Crear la Interfaz de usuario del perfil y la lógica de actualización
 - [ ] Implementación offline y sincronización del perfil
 
-## [Agregar nuevos libros](../../historias-de-usuario/sprint-01/agregar-libro.md)
+## [Agregar nuevos libros](../../historias-de-usuario/agregar-libro.md)
 
 Como usuario, quiero agregar nuevos libros con su título, autores y portada, para que pueda tener un registro de mis libros.
 
