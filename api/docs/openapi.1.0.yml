@@ -1,0 +1,69 @@
+openapi: '3.0.3'
+info:
+  title: Prfile API
+  version: '1.0'
+servers:
+  - url: https://api
+paths:
+  /profile:
+    get:
+      tags:
+        - profile
+      summary: Get an existing user
+      description: Get an existing user in the storage
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+    put:
+      tags:
+        - profile
+      summary: Update an existing user
+      description: Update an existing user in the storage
+      requestBody:
+        description: Update the user name in the storage
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user'
+      responses:
+        '200':
+          description: Successful operation
+        '400': 
+          description: Invalid name
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+    delete:
+      tags:
+        - profile
+      summary: Restore an existing user
+      description: Restore the user name to "User"
+      responses:
+        '204':
+          description: Successful operation
+
+components:
+  schemas:
+    user:
+      type: object
+      properties:
+        name:
+          type: string
+          example: john doe
+    error:
+      type: object
+      properties:
+        message:
+          type: string
+          example: string
+        timeStamp:
+          type: string
+          format: date-time
+          example: 2025-10-25T19:16:15.727Z

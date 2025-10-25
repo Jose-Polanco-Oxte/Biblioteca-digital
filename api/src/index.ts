@@ -1,12 +1,12 @@
-import express from 'express'
-
 import profileRouter from './user/routes/profile.route'
-import { errorHandler } from './utils/async.wrapper'
+import init from './init.config'
 
-const app = express()
-app.use(express.json())
+const app = init
+const PORT = process.env.PORT || 3000
 
-const PORT = 3000
+app.listen(PORT, () => {
+  console.log(`Server is running on port http://localhost:${PORT}`)
+})
 
 app.get('/ping', (_req, res) => {
   console.log('Someone pinged here!!')
@@ -14,11 +14,5 @@ app.get('/ping', (_req, res) => {
 })
 
 app.use('/api/profile', profileRouter)
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`)
-})
-
-app.use(errorHandler)
 
 export default app
